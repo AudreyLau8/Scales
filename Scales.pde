@@ -3,9 +3,9 @@ void setup() {
   //noLoop(); //stops the draw() function from repeating
 }
 
-float r = 255;
+float r = 225;
 float g = 255;
-float b = 0;
+float b = 250;
 void draw() {
   //your code here
   for(int y=-20; y<500; y+=30)
@@ -13,7 +13,7 @@ void draw() {
       scale(x,y);
       r -= 0.3;
       g -= 0.5;
-      b += 0.3;
+      b -= 0.3;
 
 }
 void scale(int x, int y) {
